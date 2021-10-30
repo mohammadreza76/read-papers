@@ -121,7 +121,7 @@ measurement, and aggregation steps. Some of these settings may largely influence
 for implementation. Specifically, we analyze four factors, i.e. window size of query-centric context in the detection step, input tensor the measurement step, neural network in the measurement step, positional function in the aggregation step. We change one factor of
 the above DeepRank-CNN each time to conduct the comparisons.
 
-### 6.1. mpact of Different Window Sizes of ery-Centric Context.
+### 6.1. mpact of Different Window Sizes of qery-Centric Context.
 
 window size of query-centric context determines the scope of local relevance in the human judgment process. With a small window size, users would determine local relevance with less effort since contexts are short, but it is easy to introduce ambiguity due to
 limited context information. When window size is large, there are suficient contexts to facilitate the precise local relevance judgment,
